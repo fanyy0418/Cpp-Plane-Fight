@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/fanyuyang/desktop/c++飞机大战/自己的/飞机大战/widget.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "aee8bfbfaf4ec8a52d60957958450440d9c0402928f502882463e15d5d774370"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/fanyuyang/desktop/c++飞机大战/自己的/飞机大战/widget.h"
+          },
+          "hashes": {
+            "sha-256": "82a4be2030d3b07021e1a76bf296b997e3c227fb042b3cd7b2daaa4a37b0a7b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/fanyuyang/desktop/c++飞机大战/自己的/飞机大战/common.h"
+          },
+          "hashes": {
+            "sha-256": "4ac489e962f5bd3acc4a87b4e0eb99944b1aaca3ff46855e3bac419184d723d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/enterprise/vc/auxiliary/vs/include/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "463486e44fb2c9afc1b9a4b8734f55ab32964843bbe18081b81d8dc4689d4037"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/enterprise/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "4191c00c18579aa242a4c2cdcbdf37b8d0558f8356360dddf31f6ba7b9bcd47e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/fanyuyang/desktop/c++飞机大战/自己的/飞机大战/res.h"
+          },
+          "hashes": {
+            "sha-256": "3741a9831987a9d1292c98c7f585e752b55d166c31410387851f2613ab2f02e4"
+          }
+        }
+      ]
+    }
+  ]
+}
